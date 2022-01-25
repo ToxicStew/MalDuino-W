@@ -197,8 +197,42 @@ namespace duckparser {
                     keyboard::setLocale(&locale_chde);
                 } else if (compare(w->str, w->len, "CH-FR", CASE_INSENSETIVE)) {
                     keyboard::setLocale(&locale_chfr);
+                } else if (compare(w->str, w->len, "EE", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_ee);
+                } else if (compare(w->str, w->len, "ES-MX", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_esmx);
+                } else if (compare(w->str, w->len, "FI", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_fi);
+                } else if (compare(w->str, w->len, "GR", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_gr);
                 } else if (compare(w->str, w->len, "HU", CASE_INSENSETIVE)) {
                     keyboard::setLocale(&locale_hu);
+                } else if (compare(w->str, w->len, "IE", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_ie);
+                } else if (compare(w->str, w->len, "IN", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_in);
+                } else if (compare(w->str, w->len, "IS", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_is);
+                } else if (compare(w->str, w->len, "LT", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_lt);
+                } else if (compare(w->str, w->len, "LV", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_lv);
+                } else if (compare(w->str, w->len, "NL", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_nl);
+                } else if (compare(w->str, w->len, "NO", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_no);
+                } else if (compare(w->str, w->len, "PL", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_pl);
+                } else if (compare(w->str, w->len, "PT-BR", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_ptbr);
+                } else if (compare(w->str, w->len, "RO", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_ro);
+                } else if (compare(w->str, w->len, "SE", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_se);
+                } else if (compare(w->str, w->len, "TR", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_tr);
+                } else if (compare(w->str, w->len, "UA", CASE_INSENSETIVE)) {
+                    keyboard::setLocale(&locale_ua);
                 }
                 
                 ignore_delay = true;
