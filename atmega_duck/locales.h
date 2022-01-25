@@ -10,6 +10,7 @@
 
 #include "locale_us.h"
 #include "locale_de.h"
+
 #include "locale_gb.h"
 #include "locale_es.h"
 #include "locale_fr.h"
@@ -18,3 +19,11 @@
 #include "locale_be.h"
 #include "locale_pt.h"
 #include "locale_it.h"
+#include "locale_sk.h"
+#include "locale_cz.h"
+#include "locale_si.h"
+#include "locale_bg.h"
+#include "locale_cafr.h"
+#include "locale_chde.h"
+#include "locale_chfr.h"
+#include "locale_hu.h"
